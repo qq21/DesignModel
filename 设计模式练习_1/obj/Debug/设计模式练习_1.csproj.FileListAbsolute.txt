@@ -1,0 +1,7 @@
+H:\C#\设计模式练习\设计模式练习_1\设计模式练习_1\bin\Debug\设计模式练习_1.exe.config
+H:\C#\设计模式练习\设计模式练习_1\设计模式练习_1\bin\Debug\设计模式练习_1.exe
+H:\C#\设计模式练习\设计模式练习_1\设计模式练习_1\bin\Debug\设计模式练习_1.pdb
+H:\C#\设计模式练习\设计模式练习_1\设计模式练习_1\obj\Debug\设计模式练习_1.csprojAssemblyReference.cache
+H:\C#\设计模式练习\设计模式练习_1\设计模式练习_1\obj\Debug\设计模式练习_1.csproj.CoreCompileInputs.cache
+H:\C#\设计模式练习\设计模式练习_1\设计模式练习_1\obj\Debug\设计模式练习_1.exe
+H:\C#\设计模式练习\设计模式练习_1\设计模式练习_1\obj\Debug\设计模式练习_1.pdb
