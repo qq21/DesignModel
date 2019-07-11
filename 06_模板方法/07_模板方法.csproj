@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3271853E-98CF-420D-A868-2EC35E9B5177}</ProjectGuid>
+    <ProjectGuid>{8F35D426-4754-4A60-8C91-74A6E439330C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06_原型模式</RootNamespace>
-    <AssemblyName>06_原型模式</AssemblyName>
+    <RootNamespace>_06_模板方法</RootNamespace>
+    <AssemblyName>06_模板方法</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
