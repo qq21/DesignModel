@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_外观模式", "08_外�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_建造者模式", "09_建造者模式\09_建造者模式.csproj", "{D923FB7F-D493-46A9-A7D5-CF4F21EE5824}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10_观察值模式", "_10_观察值模式\_10_观察值模式.csproj", "{FABBFBDA-9D21-4472-B156-6E7CF3DA30FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10_观察者模式", "_10_观察值模式\_10_观察者模式.csproj", "{FABBFBDA-9D21-4472-B156-6E7CF3DA30FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

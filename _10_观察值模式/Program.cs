@@ -6,7 +6,7 @@ using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _10_观察值模式
+namespace _10_观察者模式
 {
     class Program
     {
