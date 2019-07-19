@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FABBFBDA-9D21-4472-B156-6E7CF3DA30FD}</ProjectGuid>
+    <ProjectGuid>{AF001E25-6D69-43AC-A56F-3003BAB5F65F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_10_观察值模式</RootNamespace>
-    <AssemblyName>_10_观察值模式</AssemblyName>
+    <RootNamespace>_11抽象工厂模式</RootNamespace>
+    <AssemblyName>_11抽象工厂模式</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
