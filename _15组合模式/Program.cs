@@ -16,6 +16,10 @@ namespace _15组合模式
 /// </summary>
     class Program
     {
+        /// <summary>
+        /// 用户不用关心底层是处理一个叶节点还是 处理一个组合组件，用不着为定义组合而写一些选择判断语句
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
            Composite Root=new Composite("root");
