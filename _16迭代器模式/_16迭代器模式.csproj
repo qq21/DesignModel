@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F8873107-EFB0-43AC-94F3-2782BFA0C64B}</ProjectGuid>
+    <ProjectGuid>{8F681C1B-1DF7-4DBE-8614-9CE22068ECC4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_15组合模式</RootNamespace>
-    <AssemblyName>_15组合模式</AssemblyName>
+    <RootNamespace>_16迭代器模式</RootNamespace>
+    <AssemblyName>_16迭代器模式</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Company.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
