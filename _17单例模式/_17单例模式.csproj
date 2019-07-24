@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8F681C1B-1DF7-4DBE-8614-9CE22068ECC4}</ProjectGuid>
+    <ProjectGuid>{6A6DD0C3-46F9-4863-A371-D2A3F546A5D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_16迭代器模式</RootNamespace>
-    <AssemblyName>_16迭代器模式</AssemblyName>
+    <RootNamespace>_17单例模式</RootNamespace>
+    <AssemblyName>_17单例模式</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
