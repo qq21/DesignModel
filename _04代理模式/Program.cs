@@ -23,135 +23,135 @@ namespace _04代理模式
         }
     }
 
-    public   class  Pursuit:IGiveGift
+    public class Pursuit : IGiveGift
+    {
+        private Girl _girl;
+
+        /// <inheritdoc />
+        public Pursuit(Girl girl)
         {
-            private Girl _girl;
-
-            /// <inheritdoc />
-            public Pursuit(Girl girl)
-            {
-                _girl = girl;
-            }
-
-            /// <inheritdoc />
-            public void GiveDolls()
-            {
-                 
-                Console.WriteLine("洋娃娃  ");
-            }
-
-            /// <inheritdoc />
-            public void GiveFlowers()
-            {
-                Console.WriteLine("花  ");
-
-            }
-
-            /// <inheritdoc />
-            public void GiveChocolate()
-            {
-                Console.WriteLine("巧克力  ");
-
-            }
+            _girl = girl;
         }
 
-     public interface IGiveGift
+        /// <inheritdoc />
+        public void GiveDolls()
         {
-            void GiveDolls();
-            void GiveFlowers();
-            void GiveChocolate();
+
+            Console.WriteLine("洋娃娃  ");
+        }
+
+        /// <inheritdoc />
+        public void GiveFlowers()
+        {
+            Console.WriteLine("花  ");
 
         }
-    
-     public class Proxy :IGiveGift
+
+        /// <inheritdoc />
+        public void GiveChocolate()
         {
-            private Pursuit boy;
+            Console.WriteLine("巧克力  ");
 
-            /// <inheritdoc />
-            public Proxy(Girl girl)
-            {
-                 boy=new Pursuit(girl);
-            }
+        }
+    }
 
-            /// <inheritdoc />
-           
+    public interface IGiveGift
+    {
+        void GiveDolls();
+        void GiveFlowers();
+        void GiveChocolate();
 
-            /// <inheritdoc />
-            public void GiveDolls()
-            {
-                Console.Write("GG叫我送你 ");
-                boy.GiveDolls();
-            }
+    }
 
-            /// <inheritdoc />
-            public void GiveFlowers()
-            {
-                Console.Write("GG叫我送你 ");
-                boy.GiveFlowers();
-            }
+    public class Proxy : IGiveGift
+    {
+        private Pursuit boy;
 
-            /// <inheritdoc />
-            public void GiveChocolate()
-            {
-                Console.Write("GG叫我送你 ");
+        /// <inheritdoc />
+        public Proxy(Girl girl)
+        {
+            boy = new Pursuit(girl);
+        }
+
+        /// <inheritdoc />
+
+
+        /// <inheritdoc />
+        public void GiveDolls()
+        {
+            Console.Write("GG叫我送你 ");
+            boy.GiveDolls();
+        }
+
+        /// <inheritdoc />
+        public void GiveFlowers()
+        {
+            Console.Write("GG叫我送你 ");
+            boy.GiveFlowers();
+        }
+
+        /// <inheritdoc />
+        public void GiveChocolate()
+        {
+            Console.Write("GG叫我送你 ");
             boy.GiveChocolate();
-            }
         }
-        //被追求者
-        public class Girl
+    }
+    //被追求者
+    public class Girl
+    {
+        private string name;
+
+        public string Name
         {
-            private string name;
-
-            public string Name
-            {
-                get { return name; }
-                set { name = value; }
-            }
-
-            /// <inheritdoc />
-            public Girl(string name)
-            {
-                this.name = name;
-            }
+            get { return name; }
+            set { name = value; }
         }
 
-        public abstract class Subject
+        /// <inheritdoc />
+        public Girl(string name)
         {
-            public abstract void Request();
+            this.name = name;
         }
+    }
 
-        public class  RealSubject:Subject
+    public abstract class Subject
+    {
+        public abstract void Request();
+    }
+
+    public class RealSubject : Subject
+    {
+        /// <inheritdoc />
+        public override void Request()
         {
-            /// <inheritdoc />
-            public override void Request()
-            {
-                 Console.WriteLine("请求");
-            }
+            Console.WriteLine("请求");
         }
+    }
 
-        public  class RealProxy :Subject
+    public class RealProxy : Subject
+    {
+        private RealSubject _realSubject;
+        public RealProxy(RealSubject subject)
         {
-            private RealSubject _realSubject;
-            public RealProxy(RealSubject subject)
-            {
-                _realSubject = subject;
-            }
-
-            public RealProxy()
-            {
-                 
-            }
-
-            /// <inheritdoc />
-            public override void Request()
-            {
-                if (_realSubject==null)
-                {
-                    _realSubject=new RealSubject();
-                }
-                _realSubject.Request();
-            }
+            _realSubject = subject;
         }
-        
+
+        public RealProxy()
+        {
+
+        }
+
+        /// <inheritdoc />
+        public override void Request()
+        {
+            if (_realSubject == null)
+            {
+                _realSubject = new RealSubject();
+            }
+            _realSubject.Request();
+        }
+    }
+
 }
 
