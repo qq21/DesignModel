@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_桥接模式", "桥接�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_19命令模式", "_19命令模式\_19命令模式.csproj", "{3BAD4E2D-325D-4103-9627-13BEEC033BF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_责任链模式", "责任面膜是\20_责任链模式.csproj", "{17FF35F2-BA2F-47E7-8BFA-DD7698FB022B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{3BAD4E2D-325D-4103-9627-13BEEC033BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BAD4E2D-325D-4103-9627-13BEEC033BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BAD4E2D-325D-4103-9627-13BEEC033BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FF35F2-BA2F-47E7-8BFA-DD7698FB022B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FF35F2-BA2F-47E7-8BFA-DD7698FB022B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FF35F2-BA2F-47E7-8BFA-DD7698FB022B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FF35F2-BA2F-47E7-8BFA-DD7698FB022B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
