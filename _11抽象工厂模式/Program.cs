@@ -83,7 +83,7 @@ namespace _11抽象工厂模式
             Console.WriteLine("在SQL server 中根据 id得到 User表的一条记录");
             return null;
         }
-    }
+    }               
 
     public class AccessUser : IUser
     {

@@ -56,7 +56,7 @@ namespace 责任链模式
             this._sucessor = _ihandler;
             return _sucessor;
         }
-    }
+    }                                                                                                       
 
     public class ConcreteAHandler:Ihandler
     {

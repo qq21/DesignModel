@@ -24,7 +24,7 @@ namespace _2_Strategy
     {
         private Strategy _strategy;
         public void SetStrategy(Strategy strategy)
-        {
+        {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   A                            
             _strategy = strategy;
         }
 

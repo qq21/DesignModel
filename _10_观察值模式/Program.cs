@@ -41,7 +41,8 @@ namespace _10_观察者模式
         private List<Observer> observers;
 
         //第二种 实现方式 使用 会比较简单,不需要在外界进行注册  
-        private WeatherNoticeEvent WE;  //如果经常需要移除 考虑用字典， 否则就 直接用 这个WeatherEvent 
+        private WeatherNoticeEvent WE;  
+        //如果经常需要移除 考虑用字典， 否则就 直接用 这个WeatherEvent 
         private Dictionary<string, WeatherNoticeEvent> dic;
 
         /// <inheritdoc />

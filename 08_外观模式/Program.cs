@@ -174,7 +174,7 @@ namespace _08_外观模式
         private SubSystemOne systemOne;
         private SubSystemTweo systemTweo;
         private SubSystemThree stSystemThree;
-
+                        
          
         /// <inheritdoc />
         public Facade( )
