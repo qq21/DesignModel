@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_责任链模式", "责�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_21中介者模式", "_21中介者模式\_21中介者模式.csproj", "{0B6059AE-2A47-42DE-A688-DA707AEC5A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_22_享元模式", "_22_享元模式\_22_享元模式.csproj", "{F92DBBC7-63FA-455F-9981-5E3221190D0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{0B6059AE-2A47-42DE-A688-DA707AEC5A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B6059AE-2A47-42DE-A688-DA707AEC5A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B6059AE-2A47-42DE-A688-DA707AEC5A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F92DBBC7-63FA-455F-9981-5E3221190D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92DBBC7-63FA-455F-9981-5E3221190D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92DBBC7-63FA-455F-9981-5E3221190D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92DBBC7-63FA-455F-9981-5E3221190D0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
