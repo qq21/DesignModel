@@ -1,0 +1,7 @@
+H:\C#\设计模式练习\设计模式练习_1\解释器模式\bin\Debug\解释器模式.exe.config
+H:\C#\设计模式练习\设计模式练习_1\解释器模式\bin\Debug\解释器模式.exe
+H:\C#\设计模式练习\设计模式练习_1\解释器模式\bin\Debug\解释器模式.pdb
+H:\C#\设计模式练习\设计模式练习_1\解释器模式\obj\Debug\_23解释器模式.csprojAssemblyReference.cache
+H:\C#\设计模式练习\设计模式练习_1\解释器模式\obj\Debug\_23解释器模式.csproj.CoreCompileInputs.cache
+H:\C#\设计模式练习\设计模式练习_1\解释器模式\obj\Debug\解释器模式.exe
+H:\C#\设计模式练习\设计模式练习_1\解释器模式\obj\Debug\解释器模式.pdb
